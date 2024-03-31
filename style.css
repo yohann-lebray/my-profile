@@ -1,0 +1,118 @@
+body{
+	background-color: rgb(230,230,230);
+	color: rgb(40,40,40);
+	font-family: Lora, serif;
+ 	font-optical-sizing: auto;
+	font-weight: 350;
+	font-style: normal;
+	font-size: 20px;
+}
+
+h1, h2, h3{	
+ 	font-family: Poppins, sans-serif;
+	font-style: normal;
+	color:#542589;
+}
+
+h1{
+	font-weight: 550
+}
+
+h2{
+	font-weight: 500;
+}
+
+a{
+	color: lightgrey;
+	text-decoration: none;
+	font-weight: light bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color:rgb(240,240,240);
+}
+
+
+img {
+		width: 150px;
+		border-radius: 200%;
+}
+ul {
+		list-style: none;
+		margin-right: 40px;
+}
+li {
+		display: inline;
+		padding: 50px;
+}
+i {
+		font-size: 50px;
+		color: #542589;
+		transition: color 0.3s ease;
+}
+i:hover {
+	color: lightgrey;
+}
+
+
+/* Division design */
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}	
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-design {
+	background-color: rgb(250,250,250);
+	border-radius: 12px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.link{
+	font-family:Poppins, sans-serif;
+	font-weight: 450;
+}
+
+.btn-blue {
+	width: 400px;
+	background-color: #542589 ;
+	color: #ffffff00;
+	padding: 15px 20px;
+	border-radius: 8px;
+	margin: auto;
+}
+
+.btn-blue:hover {
+	background-color: #542589 ;	
+	color: blue;
+}
+
+
+#intro p {
+	margin-bottom: 40px;
+}
